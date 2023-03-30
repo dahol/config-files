@@ -6,14 +6,10 @@
 
 `git clone https://github.com/dahol/config-files`
 
-### Chdir
-
-`cd config-files/`
-
 ### Backup current config
 
-`cp init.vim init.vim.bk`
+`cp ~/.config/init.vim ~/.config/init.vim.bk`
 
 ### Copy new config
 
-`cp init.vim ~/.config/nvim/init.vim`
+`cp config-files/init.vim ~/.config/nvim/init.vim`
