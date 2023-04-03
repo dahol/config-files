@@ -6,7 +6,7 @@
 
 `git clone https://github.com/dahol/config-files`
 
-### Backup current config
+### Backup current config (if exists)
 
 `cp ~/.config/init.vim ~/.config/init.vim.bk`
 
