@@ -7,6 +7,7 @@
 `git clone https://github.com/dahol/config-files`
 
 ### Backup current config (if exists)
+<<<<<<< HEAD
 
 ```
 current=~/.config/init.vim
@@ -14,6 +15,8 @@ if current -f "$current"; then
     cp ~/.config/init.vim ~/.config/init.vim.bk
 fi
 ```
+=======
+>>>>>>> 76033a3f92c40063e4c2801a61eff65f0aee4dfd
 
 `cp ~/.config/init.vim ~/.config/init.vim.bk`
 
