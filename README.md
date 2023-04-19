@@ -31,7 +31,7 @@ fi
 
 ### Install plugin selection
 
-:Pluginstall
+`:Pluginstall`
 
 ### Cleanup
 
