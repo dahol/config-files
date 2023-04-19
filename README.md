@@ -8,9 +8,16 @@
 
 ### Backup current config (if exists)
 
+```
+current=~/.config/init.vim
+if current -f "$current"; then
+    cp ~/.config/init.vim ~/.config/init.vim.bk
+fi
+```
+
 `cp ~/.config/init.vim ~/.config/init.vim.bk`
 
-### make sure dir exists
+### Create nvim-folder if it does not exist
 
 `mkdir -p ~/.config/nvim/`
 
@@ -29,3 +36,4 @@
 ### Cleanup
 
 `rm -d -r config-files/`
+`:Pluginstall`
