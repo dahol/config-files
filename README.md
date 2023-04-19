@@ -25,3 +25,7 @@
 ### Install plugin selection
 
 :Pluginstall
+
+### Cleanup
+
+`rm -d -r config-files/`
